@@ -19,7 +19,7 @@ async def on_message(message):
         nums.append(str(int(nums[0]) + int(nums[1])))
         g=open(str(message.author) + ".py","w")
         g.write('from manim import * \n \nclass SlantsExample(Scene): \n     def construct(self): \n         nums = ' + str(nums))
-        g.write('\n     a = Text(nums[0] + "+" + nums[1] + "=" + nums[2]), font_size=90) \n         for i in range (len(a) - len(nums[2]), len(a)):\n           print(i)          self.play(Create(a))')
+        g.write('\n         a = Text(nums[0] + "+" + nums[1] + "=" + nums[2]), font_size=90) \n         for i in range (len(a) - len(nums[2]), len(a)):\n           print(i)          self.play(Create(a))')
         g.close()
         os.system("manim -pqh " + str(message.author) + ".py Output")
         await message.channel.send("done")
