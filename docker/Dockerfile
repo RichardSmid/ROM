@@ -19,4 +19,4 @@ RUN pip install time
 
 ADD calc.py /
 
-CMD ["python3", "calc.py"]
+CMD python3 calc.py
