@@ -13,9 +13,9 @@ RUN apt install libcairo2-dev libpango1.0-dev ffmpeg -y
 RUN apt install python3-pip -y
 
 RUN pip3 install manim
-RUN pip install os
-RUN pip install discord
-RUN pip install time
+RUN pip3 install os
+RUN pip3 install discord
+RUN pip3 install time
 
 ADD calc.py /
 
