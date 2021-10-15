@@ -35,3 +35,4 @@ client.run('ODAyOTk0Mzc4OTQ3NjkwNTg2.YA3Uyg.BKELipsMKOoRbtZrHxRVrSP0--k')
 # zivot s tebou je fakt vyhra 
 # Ondrej Matysek 2021 nekdy v rijnu
 #hovno
+#shit
