@@ -1,6 +1,6 @@
 
 # This is the official CalcBot repository.
-### *This bot is developed by Richard Smid and Ondrej Matysek.*
+### *This bot is developed by Richard Smid and Ondym.*
 
 Trello to do board: https://trello.com/b/yzsrKgUl/todos
 

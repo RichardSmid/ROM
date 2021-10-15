@@ -27,6 +27,6 @@
     background-color: #585858;
   }
   
-  ::selection{
-    background: #404040;
-  }
+::selection{
+  background: #404040;
+}
