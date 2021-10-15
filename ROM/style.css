@@ -1,15 +1,18 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src:  url('assets/deafult.ttf') format('Deafult');
+}
 
 body{
     background: #000;
     margin: 0;
     padding: 0;
     color: #fff;
-    /* font-family: calibri sans-serif; */
-  }
+    font-family: Arial, Helvetica, sans-serif;
+}
   
 .main{
   /* font-family: consolas sans-serif; */
   height: 300vh;
   padding: 10vh;
-  /* letter-spacing: .1em; */
 }
