@@ -1,43 +1,15 @@
-* {
-  scrollbar-width: thin;
-  scrollbar-color: #404040 #9c9c9c;
-}
-
-*::-webkit-scrollbar {
-  width: 5px;
-  transition: .5s;
-}
-
-*::-webkit-scrollbar:hover {
-  width: 15px;
-}
-
-*::-webkit-scrollbar-track {
-  background: #9c9c9c00;
-  margin: 1px;
-  border: 5px solid #0000;
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color: #404040;
-  border-radius: 10px;
-}
-
-*::-webkit-scrollbar-thumb:hover {
-  background-color: #585858;
-}
 
 body{
     background: #000;
     margin: 0;
     padding: 0;
     color: #fff;
-    font-family: consolas sans-serif;
+    /* font-family: calibri sans-serif; */
   }
   
-  .main{
-  font-family: consolas sans-serif;
+.main{
+  /* font-family: consolas sans-serif; */
   height: 300vh;
   padding: 10vh;
-  letter-spacing: .1em;
+  /* letter-spacing: .1em; */
 }
