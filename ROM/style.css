@@ -1,18 +1,24 @@
 @font-face {
-  font-family: 'MyWebFont';
-  src:  url('assets/deafult.ttf') format('Deafult');
+  font-family: 'Default';
+  src:  url('assets/deafult.ttf');
 }
 
 body{
     background: #000;
     margin: 0;
-    padding: 0;
     color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Default", Arial, Helvetica, sans-serif;
+    padding: 0 0 0 0;
 }
   
 .main{
   /* font-family: consolas sans-serif; */
   height: 300vh;
-  padding: 10vh;
+  padding: 30vh;
+  text-align: justify;
+}
+
+.footer{
+  margin-top: 1em;
+  font-weight: lighter;
 }
