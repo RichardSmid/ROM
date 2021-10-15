@@ -8,7 +8,7 @@ body{
     margin: 0;
     color: #fff;
     font-family: "Default", Arial, Helvetica, sans-serif;
-    padding: 0 0 0 0;
+    padding: 0 0 0 20vw;
 }
   
 .main{
@@ -21,4 +21,16 @@ body{
 .footer{
   margin-top: 1em;
   font-weight: lighter;
+}
+
+.menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: auto;
+  padding: 10px;
+  user-select: none;
+  background: rgb(14, 14, 14);
+  height: 100vh;
+  width: 20vw;
 }
