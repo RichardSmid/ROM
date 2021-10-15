@@ -29,7 +29,7 @@ async def on_message(message):
         os.system("rm -rf /root/mount/Manim/calcbot/Media/videos/" + str(message.author))
         os.system("rm -rf /root/mount/Manim/calcbot/" + str(message.author) + ".py")
 
-client.run('ODAyOTk0Mzc4OTQ3NjkwNTg2.YA3Uyg.BKELipsMKOoRbtZrHxRVrSP0--k')
+client.run('TOKENGOBLING')
 
 
 # zivot s tebou je fakt vyhra 
