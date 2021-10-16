@@ -1,7 +1,5 @@
-@font-face {
-  font-family: 'Default';
-  src: url('assets/fonts/default-regular.ttf');
-}
+@font-face {font-family: 'Open Sans';src: url(https://fonts.gstatic.com/s/opensans/v26/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2) format('woff2');}
+@font-face {font-family: 'Default';src: url('assets/fonts/default-regular.ttf');}
 
 body{
     background: #000;
@@ -9,21 +7,22 @@ body{
     color: #fff;
     font-family: "Default", Arial, Helvetica, sans-serif;
     padding: 0 0 0 22vw;
-}
-
-.media{
-  user-select: none;
-  width: 100%;
-  display: block;
-  text-align: center;
-}
-
-img, video{
-  width: 90%;
-  display: inline;
-}
-
-.content h1{
+  }
+  
+  .media{
+    user-select: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  
+  img, video{
+    width: 90%;
+    display: inline;
+  }
+  
+  .content h1{
+  font-family: "Open Sans", "Default", Arial, Helvetica, sans-serif;
   width: 100%;
   text-align: center;
   letter-spacing: .1em;
@@ -46,7 +45,7 @@ img, video{
   width: auto;
   padding: 10px;
   user-select: none;
-  background: rgb(15, 15, 15);
+  background: rgb(16, 22, 24);
   height: 100vh;
   width: 22vw;
   font-size: 2.4vh;
@@ -69,7 +68,7 @@ img, video{
 }
 
 .menu li:hover ul{
-  background: rgb(15, 15, 15);
+  background: rgb(16, 22, 24);
 }
 
 .menu h2{
@@ -89,39 +88,51 @@ img, video{
   float: right;
 }
 
+.settings:hover .themes{
+  display: block;
+}
+
 .themes{
+  transition: 1s;
   height: auto;
   width: 25vw;
-  /* position: fixed;
-  top: 6.5vh; */
-  background: rgb(26, 32, 34);
-  display: block;
+  background: rgb(16, 22, 24);
+  display: none;
   border-radius: 1vh;
+  margin-top: 6vh;
+  font-family: "Open Sans";
 }
 
 .theme{
+  transition: .1s;
   margin: .2em 0;
   background: #d000;
   padding: .5em;
   font-size: 20px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.theme:hover{
+  background: rgb(30, 37, 39);
 }
 
 .themeColors{
   margin-left: .5em;
   display: inline;
-  user-select: none;
 }
 
 .themeColors span {
   display: inline-block;
   border: #fff solid 4px;
-  padding: 1em;
+  padding: .8em;
   margin: 0 -4px;
+  vertical-align: top;
 }
 
 .theme .name{
-  display: inline;
-  margin: -1em 0 0 .6em;
+  display: inline-block;
+  margin: 0em 0 0 .6em;
   font-size: 1.5em;
   color: #ddd;
 }
