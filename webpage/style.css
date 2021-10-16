@@ -33,7 +33,8 @@ img, video{
 
 .content{
   /* font-family: consolas sans-serif; */
-  height: 300vh;
+  height: auto;
+  margin-bottom: 3vh;
   padding: 0 30vh 10vh 30vh;  
   text-align: justify;
 }
