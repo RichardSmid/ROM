@@ -34,7 +34,7 @@ body{
 .content{
   /* font-family: consolas sans-serif; */
   height: 300vh;
-  padding: 0 30vh 10vh 30vh;
+  padding: 0 30vh 10vh 30vh;  
   text-align: justify;
 }
 
@@ -74,71 +74,4 @@ body{
 .menu h2{
   margin: 0;
   font-size: 1.5em;
-}
-
-.settings{
-  position: fixed;
-  top: 1vh;
-  right: 1vh;
-}
-
-#sett-icon{
-  width: 5vh;
-  cursor: pointer;
-  float: right;
-}
-
-.settings:hover .themes{
-  height: 30vh;
-}
-
-.settings:hover{
-  color: 30vh;
-}
-
-.themes{
-  transition: all .2s ease-in;
-  height: 0;
-  overflow: hidden;
-  width: 25vw;
-
-  background: rgb(16, 22, 24);
-  display: block;
-  border-radius: 1vh;
-  margin-top: 6vh;
-  font-family: "Open Sans";
-}
-
-.theme{
-  transition: .1s;
-  margin: .2em 0;
-  background: #d000;
-  padding: .5em;
-  font-size: 20px;
-  user-select: none;
-  cursor: pointer;
-}
-
-.theme:hover{
-  background: rgb(30, 37, 39);
-}
-
-.themeColors{
-  margin-left: .5em;
-  display: inline;
-}
-
-.themeColors span {
-  display: inline-block;
-  /* border: #fff solid 4px; */
-  padding: .8em;
-  margin: 0 -0px 0 0;
-  vertical-align: top;
-}
-
-.theme .name{
-  display: inline-block;
-  margin: -.2em 0 0 .6em;
-  font-size: 1.5em;
-  color: #ddd;
 }
