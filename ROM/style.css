@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Default';
-  src:  url('assets/deafult.ttf');
+  src: url('assets/deafult.ttf');
 }
 
 body{
     background: #000;
     margin: 0;
     color: #fff;
-    font-family: "Default", Arial, Helvetica, sans-serif;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
     padding: 0 0 0 22vw;
 }
 
@@ -18,14 +18,7 @@ body{
   text-align: center;
 }
 
-img{
-  width: 90%;
-  display: inline;
-  /* margin-left: calc(4%); */
-  /* border: cyan 1em solid; */
-}
-
-video{
+img, video{
   width: 90%;
   display: inline;
 }
@@ -35,12 +28,14 @@ video{
   text-align: center;
   letter-spacing: .1em;
   font-size: 2.8em;
+  text-transform: uppercase;
+  margin: .6em 0 0 0;
 }
 
 .content{
   /* font-family: consolas sans-serif; */
   height: 300vh;
-  padding: 0 30vh;
+  padding: 0 30vh 10vh 30vh;
   text-align: justify;
 }
 
