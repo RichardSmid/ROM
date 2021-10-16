@@ -76,3 +76,21 @@ img, video{
   margin: 0;
   font-size: 1.5em;
 }
+
+#sett-icon{
+  width: 5vh;
+  position: fixed;
+  top: 1vh;
+  right: 1vh;
+  cursor: pointer;
+}
+
+
+.themes{
+  height: auto;
+  width: 15vw;
+  /* position: fixed;
+  top: 6.5vh; */
+  background: chartreuse;
+  display: block;
+}

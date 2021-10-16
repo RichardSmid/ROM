@@ -1,8 +1,5 @@
-console.log(document.cookie);
-
 function setTheme(themeID) {
-    document.cookie = "username=DOG;path=/;";
-    console.log(document.cookie);
+    document.cookie = "theme=" + themeID + ";path=/;";
     loadTheme();
 }
 
