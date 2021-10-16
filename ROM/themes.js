@@ -1,10 +1,13 @@
+console.log(document.cookie);
+
 function setTheme(themeID) {
-    document.cookie = "theme:" + themeID;
-    
+    document.cookie = "username=DOG;path=/;";
+    console.log(document.cookie);
+    loadTheme();
 }
 
 function loadTheme() {
-    let currentTheme = parseInt(document.cookie.substring(5, document.cookie - 1));
+    let currentTheme = document.cookie;
     let root = document.documentElement;
-    
+    console.log(currentTheme);
 }

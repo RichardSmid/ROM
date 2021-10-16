@@ -14,7 +14,6 @@ const content = [
 ] 
 
 function makeContent(item, parent) {
-    console.log(item);
     if (Array.isArray(item)) {
         let ul = document.createElement("ul");
         ul.innerHTML += "<li><h2>" + item[0] + "</h2></li>";   
