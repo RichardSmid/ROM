@@ -77,20 +77,51 @@ img, video{
   font-size: 1.5em;
 }
 
-#sett-icon{
-  width: 5vh;
+.settings{
   position: fixed;
   top: 1vh;
   right: 1vh;
-  cursor: pointer;
 }
 
+#sett-icon{
+  width: 5vh;
+  cursor: pointer;
+  float: right;
+}
 
 .themes{
   height: auto;
-  width: 15vw;
+  width: 25vw;
   /* position: fixed;
   top: 6.5vh; */
-  background: chartreuse;
+  background: rgb(26, 32, 34);
   display: block;
+  border-radius: 1vh;
+}
+
+.theme{
+  margin: .2em 0;
+  background: #d000;
+  padding: .5em;
+  font-size: 20px;
+}
+
+.themeColors{
+  margin-left: .5em;
+  display: inline;
+  user-select: none;
+}
+
+.themeColors span {
+  display: inline-block;
+  border: #fff solid 4px;
+  padding: 1em;
+  margin: 0 -4px;
+}
+
+.theme .name{
+  display: inline;
+  margin: -1em 0 0 .6em;
+  font-size: 1.5em;
+  color: #ddd;
 }
