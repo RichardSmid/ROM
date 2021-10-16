@@ -89,15 +89,21 @@ body{
 }
 
 .settings:hover .themes{
-  display: block;
+  height: 30vh;
+}
+
+.settings:hover{
+  color: 30vh;
 }
 
 .themes{
-  transition: 1s;
-  height: auto;
+  transition: all .2s ease-in;
+  height: 0;
+  overflow: hidden;
   width: 25vw;
+
   background: rgb(16, 22, 24);
-  display: none;
+  display: block;
   border-radius: 1vh;
   margin-top: 6vh;
   font-family: "Open Sans";
