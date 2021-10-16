@@ -9,19 +9,19 @@ body{
     padding: 0 0 0 22vw;
   }
   
-  .media{
+.media{
     user-select: none;
     width: 100%;
     display: block;
     text-align: center;
   }
   
-  img, video{
+img, video{
     width: 90%;
     display: inline;
   }
   
-  .content h1{
+.content h1{
   font-family: "Open Sans", "Default", Arial, Helvetica, sans-serif;
   width: 100%;
   text-align: center;
