@@ -11,23 +11,23 @@ const content = [
     "Document",
     "~10"
 ]
-const tag = document.createElement("ul");
+const tag = document.getElementsByClassName("menu")[0];
 
-function makeContent(item) {
+function makeContent(item, parent) {
     console.log(item);
     if (Array.isArray(item)) {
-        tag.innerHTML += "<ul>";
-        tag.innerHTML += "<li><h2>" + item[0] + "</h2></li>";   
-        for (let i = 1; i < item.length; i++) {
-            makeContent(item[i])
-            if (i == item.length -1) {
-                
-            }
-            tag.innerHTML += "</ul>";
+        // tag.innerHTML += "<ul>";
+        let ul = document.createElement("ul");
+        ul.innerHTML += "<li><h2>" + item[0] + "</h2></li>";   
+        for (let i = 0; i < item.length; i++) {
+            makeContent(item[i], ul);
         }
+        parent.appendChild(ul);
+        // tag.innerHTML += "</ul>";
     } else {
-        tag.innerHTML += "<li>" + item + "</li>";
+        parent.innerHTML += "<li>" + item + "</li>";
     }
 }
 
-makeContent(content);
+makeContent(content, tag);
+// document.getElementsByClassName("menu")[0].appendChild(tag);

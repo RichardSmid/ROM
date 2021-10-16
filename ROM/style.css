@@ -25,6 +25,11 @@ img{
   /* border: cyan 1em solid; */
 }
 
+video{
+  width: 90%;
+  display: inline;
+}
+
 h1{
   width: 100%;
   text-align: center;
@@ -44,7 +49,7 @@ h1{
   width: auto;
   padding: 10px;
   user-select: none;
-  background: rgb(10, 10, 10);
+  background: rgb(15, 15, 15);
   height: 100vh;
   width: 22vw;
 }
@@ -55,16 +60,16 @@ h1{
 }
 
 .menu li{
-  padding: .2em 0 .2em 0;
+  padding: .2em 0 .2em .4em;
   display: block;
 }
 
 .menu li:hover{
-  background: rgb(20, 20, 20);
+  background: rgb(30, 30, 35);
 }
 
 .menu li:hover ul{
-  background: rgb(10, 10, 10);
+  background: rgb(15, 15, 15);
 }
 
 .menu h2{
