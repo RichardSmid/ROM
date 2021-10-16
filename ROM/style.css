@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Default';
-  src: url('assets/deafult.ttf');
+  src: url('assets/fonts/default.ttf');
 }
 
 body{
     background: #000;
     margin: 0;
     color: #fff;
-    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-family: Default, Arial, Helvetica, sans-serif;
     padding: 0 0 0 22vw;
 }
 
