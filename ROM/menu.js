@@ -1,4 +1,5 @@
 const content = [
+
     "Lorem",
     "Ipsum",
     [
@@ -10,8 +11,7 @@ const content = [
     "Bed",
     "Document",
     "~10"
-]
-
+] 
 function makeContent(item, parent) {
     console.log(item);
     if (Array.isArray(item)) {
