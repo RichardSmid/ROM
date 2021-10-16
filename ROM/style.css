@@ -11,7 +11,7 @@ body{
     padding: 0 0 0 22vw;
 }
 
-.image{
+.media{
   user-select: none;
   width: 100%;
   display: block;
@@ -47,4 +47,26 @@ h1{
   background: rgb(10, 10, 10);
   height: 100vh;
   width: 22vw;
+}
+
+.menu ul{
+  margin: 0;
+  padding: 0 0 0 2vw;
+}
+
+.menu li{
+  padding: .2em 0 .2em 0;
+  display: block;
+}
+
+.menu li:hover{
+  background: rgb(20, 20, 20);
+}
+
+.menu li:hover ul{
+  background: rgb(10, 10, 10);
+}
+
+.menu h2{
+  margin: 0;
 }
