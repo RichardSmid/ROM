@@ -124,15 +124,15 @@ body{
 
 .themeColors span {
   display: inline-block;
-  border: #fff solid 4px;
+  /* border: #fff solid 4px; */
   padding: .8em;
-  margin: 0 -4px;
+  margin: 0 -0px 0 0;
   vertical-align: top;
 }
 
 .theme .name{
   display: inline-block;
-  margin: 0em 0 0 .6em;
+  margin: -.2em 0 0 .6em;
   font-size: 1.5em;
   color: #ddd;
 }
