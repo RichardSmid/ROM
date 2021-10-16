@@ -12,6 +12,7 @@ const content = [
     "Document",
     "~10"
 ] 
+
 function makeContent(item, parent) {
     console.log(item);
     if (Array.isArray(item)) {
