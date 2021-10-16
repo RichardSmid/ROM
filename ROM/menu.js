@@ -1,4 +1,7 @@
 const content = [
+
+    // this is where edditing starts
+
     "Lorem",
     "Ipsum",
     [
@@ -11,6 +14,9 @@ const content = [
     "Document",
     "~10"
 ]
+
+    // this is where editing ends
+
 const tag = document.getElementsByClassName("menu")[0];
 
 function makeContent(item, parent) {
