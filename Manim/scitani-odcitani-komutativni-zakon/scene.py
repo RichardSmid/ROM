@@ -6,5 +6,5 @@ class komutativnizakon(Scene):
         first = MarkupText(f'3+5<span fgcolor="#038C65">=</span><span fgcolor="#F20505">8</span>', color="#F2EBDF")
         second = MarkupText(f'5+3<span fgcolor="#038C65">=</span><span fgcolor="#F20505">8</span>', color="#F2EBDF")
 
-        self.play(Write(first))  # animate the creation of the square
-        self.play(Transform(first, second))  # interpolate the square into the circle
+        self.play(Write(first))
+        self.play(Transform(first, second))
