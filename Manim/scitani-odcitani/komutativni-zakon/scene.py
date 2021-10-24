@@ -8,3 +8,5 @@ class komutativnizakon(Scene):
 
         self.play(Write(first))
         self.play(Transform(first, second))
+
+        
