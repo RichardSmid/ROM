@@ -1,3 +1,4 @@
-_pycache_
-_media_
 .vscode
+media
+.cache
+__pycache__
