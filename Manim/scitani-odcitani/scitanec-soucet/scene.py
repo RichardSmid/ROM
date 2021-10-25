@@ -16,6 +16,6 @@ class operation(Scene):
 
         description = VGroup(added1,added2,sum)
 
-        all = VGroup(description,operation)
+        all = VGroup(description,operation).shift(LEFT * .5)
 
         self.add(all)
